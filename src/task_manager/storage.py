@@ -1,6 +1,6 @@
 import json
 import os
-from .models import Task
+from models import Task
 
 def save_tasks(tasks: list, filename: str):
     data = []
